@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f7e7e1;
+            color: #5d2f3b;
+            background-image: url('https://img.freepik.com/free-photo/valentine-s-wallpaper-heart-frame-love-support-concept_53876-148107.jpg?ga=GA1.1.91365013.1733511742&semt=ais_hybrid');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .content-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: -150px; /* Move the image container further left */
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+
+        .image-container img {
+            width: 120px;  /* Increased image size */
+            height: 120px; /* Increased image size */
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #6a2e4b;
+            margin-bottom: 30px; /* Increased margin for spacing */
+            transition: transform 0.3s ease;
+        }
+
+        /* Zigzag effect for images */
+        .image-container img:nth-child(odd) {
+            transform: translateY(20px);
+        }
+
+        .image-container img:nth-child(even) {
+            transform: translateY(20px);
+        }
+
+        .image-container img:nth-child(1) {
+            transform: translateY(20px) translateX(-30px); /* Move the second image more left */
+        }
+
+        .image-container img:nth-child(3) {
+            transform: translateY(20px) translateX(-30px); /* Move the second image more left */
+        }
+
+        .image-container img:nth-child(5) {
+            transform: translateY(20px) translateX(-30px); /* Move the second image more left */
+        }
+
+        .image-container img:nth-child(2) {
+            transform: translateY(20px) translateX(-140px); /* Move the second image more left */
+        }
+
+        .image-container img:nth-child(4) {
+            transform: translateY(20px) translateX(-140px); /* Move the fourth image more left */
+        }
+
+        .container {
+            width: 650px;
+            height: 880px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-image: url('https://i.pinimg.com/736x/bc/78/d5/bc78d5d0e6796a69aaf2e6828ad5381f.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding: 60px 40px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            max-height: 90%;
+            overflow: hidden;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .letter-content {
+            background: rgba(240, 238, 238, 0.9);
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            max-width: 90%;
+            max-height: 80%;
+            overflow-y: auto;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #6a2e4b;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .love-letter {
+            color: #6a2e4b;
+            font-size: 18px;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Image Container outside the main content -->
+    <div class="content-wrapper">
+        <div class="image-container">
+            <img src="brainwave.jpg" alt="Image 1">
+            <img src="bw2.jpg" alt="Image 2">
+            <img src="crop chd.jpg" alt="Image 3">
+            <img src="mirror.jpg" alt="Image 4">
+            <img src="roses.jpg" alt="Image 5">
+            
+        </div>
+
+        <!-- Container for the letter content -->
+        <div class="container">
+            <div class="letter-content">
+                <h1>My Dearest Varshit</h1>
+                <p class="love-letter">
+                    I’ve been meaning to tell you this for a while now, how my feelings towards you changed but it’s not always easy to put into words for me. I first admired you through the dedication you show towards your work, how you pour so much effort into everything you do. It was inspiring to see how responsible and hardworking you are, especially at such a young age. It’s rare to find someone who can balance so much and still manage to stay grounded. Your commitment to your family, to your work, and to your future was something that caught my attention in the most special way.<br><br>
+
+                    Then, when you helped me with Akhil’s matter, something shifted. I felt a sense of security I hadn't experienced before with people around me. I realized how much I could rely on you not just for practical support, but for the way you made me feel safe, understood, and cared for which I have always craved throughout my life. There was this comfort in knowing I had someone I could trust, someone who won't think twice to stand for me. I never thought I’d find someone who could make me feel this way, with someone I can be defenseless, but you did.<br><br>
+
+                    The more I got to know you, the more I realized how easy it was to talk to you. With you, there was never any hesitation. I could share anything without the fear of being judged. There was this effortless understanding between us, and it felt so natural to express myself in a way I had struggled to do before with all my friends just to make them understand what I actually mean. You just get me, and I can tell you things I’ve thought ten times to share with anyone.<br><br>
+
+                    What amazed me the most was how much I looked forward to our daily conversations. It felt like I was growing closer to you with every exchange, learning more about your life, your experiences, and your dreams. You made me feel so comfortable, not just in listening to your stories, but in sharing my own as well. There was something so soothing about our time together, and I found myself eagerly waiting for our next conversation.<br><br>
+
+                    I remember feeling a twinge of jealousy when I saw Keerthana sit in the front seat, and asked her to sit back the next time. something I thought it is fine to feel jealous with freinds too. which felt silly at first, but then it made me realize how deep my feelings were. I was so protective of our little space, not just in the physical sense, but emotionally too. And when it came time for me to leave the internship, I felt a void. It was strange not having you around every day. You had become such a constant in my life that I couldn't imagine my routine without you. It was then that I understood what I felt for you was love. The qualities I had always described as being important in a partner were actually the qualities I liked in you, not my expectations. The person I had always hoped for, without even knowing it, was standing right there.<br><br>
+
+                    When I moved to another internship, I realized just how lonely I felt without you. I kept thinking about how it would feel if you were there, talking nonstop. Even when you weren't physically with me, you were always on my mind, filling the silence in a way that no one else could.<br><br>
+
+                    And then, when you wished me on Raksha Bandhan, I felt this strange anger. At first, I wanted to ignore your message. But then, my colleagues spoke about how Rakhi could be tied to someone who protects you in bad times, then I replied back to you. It made me question everything, made me realize how deeply I had started feeling for you.<br><br>
+
+                    For a long time, I convinced myself that you couldn’t possibly feel the same way, but my intuitions have always been opposite to my thinking, the subtle signs that made me think maybe, just maybe, you felt something too. When you called me “akka,” I struggled with it, even though deep down, I felt like there was more. I scolded myself and felt guilty for having feelings, for wondering if you could possibly have feelings for me too. And after Diwali, when I made the decision to reduce our conversations, I was just trying to protect myself from feeling too much. But everything changed after November 3rd when you confessed. You felt the same way. And in that moment, all the weight, all the confusion, and all the fear melted away.<br><br>
+
+                    You are someone I admire so deeply. The way you explain things with such softness, how responsible you are with your family and work, and how you can be both jovial and serious depending on the situation, how vulnerable you can be with your close people which is rare. You never fail to make an effort, whether it's through your words, your actions, or simply by being there. The way you make me feel understood, the way you help me when I overthink, and the way you reassure me when I need it most is something I cherish so much.<br><br>
+
+                    I still sometimes fear that I might lose you, now that I’ve found you. It’s a strange feeling, like I’ve found something too good to be true. But in my heart, I know you’re exactly who I’ve been looking for, someone who’s real, and someone who’s now a part of my life.<br><br>
+
+                    I want to see you grow, not just in your career, but in everything you do. I want to watch you become the kind of person everyone looks up to, the person whose story inspires others to work hard and follow their dreams. You’re destined for greatness, and I want to be there, supporting you every step of the way.<br><br>
+
+                    Iii loveeeee youuuu soooooo muchhhhhh<br><br>
+
+                    Forever yours,<br>
+                    Bujji
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
