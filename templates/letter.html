@@ -130,6 +130,68 @@
             line-height: 1.8;
             margin-top: 20px;
         }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+                height: auto;
+                padding: 40px 20px;
+            }
+
+            .letter-content {
+                padding: 20px;
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            /* Keep image container left and the same scale */
+            .image-container {
+                left: -120px;
+            }
+
+            .image-container img {
+                width: 100px;
+                height: 100px;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                background-size: 100% 100%;
+                background-position: center top;
+            }
+
+            .container {
+                width: 100%;
+                height: auto;
+                padding: 20px;
+            }
+
+            .letter-content {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            /* Keep image container left and the same scale */
+            .image-container {
+                left: -50px;
+            }
+
+            .image-container img {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
